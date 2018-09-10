@@ -17,7 +17,7 @@ In this assignment you will implement a simple rasterizer, including features li
 
 You can either download the zipped assignment straight to your computer or clone it from GitHub using the command
 
-    git clone ...
+    git clone git@github.com:mkarsalan/PA1-Rasterizer.git
 
 ### Building the assignment
 
