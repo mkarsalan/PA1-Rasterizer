@@ -235,9 +235,10 @@ Execute following command in build directory. Cycle through different texmap fil
 
     ./draw ../svg/texmap/
 
-![Screenshot](https://drive.google.com/uc?id=12kcGe8pw_LINnX2ScqtPOZbV5KAs4FX7)
-![Screenshot](https://drive.google.com/uc?id=12PMwZmRQpIFlGsrLjvPKxyHcYpYIz7Dn)
-![Screenshot](https://drive.google.com/uc?id=1tjdm3Ci2xH0ce9xj99U7SjqDi2H2_82_)
+
+![Screenshot](https://drive.google.com/uc?id=1X_anjcXBed-C8MjKzr-WzNE_j2fdAsS6)
+![Screenshot](https://drive.google.com/uc?id=1VfpKqxTUt-3Apd3rLhMUzuH0E3JCtaNy)
+![Screenshot](https://drive.google.com/uc?id=1_DEoG9c6yDhdoKDFFefAXQ1N30nnwZ08)
 
 
 ## Section III: Scan Line
@@ -252,8 +253,6 @@ For convenience, here is the function you will need to modify:
     DrawRend::rasterize_scanLine
 
 Use `L` to toggle scanline. Note your time difference.
-
-![Screenshot](https://drive.google.com/uc?id=1t2AZtm55fmpH9XBkC4Z64bhPbyVMOzWK)
 
 
 ## 
