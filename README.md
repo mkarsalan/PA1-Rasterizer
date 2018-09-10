@@ -253,7 +253,7 @@ For convenience, here is the function you will need to modify:
 
 Use `L` to toggle scanline. Note your time difference.
 
-![Screenshot](https://drive.google.com/open?id=1t2AZtm55fmpH9XBkC4Z64bhPbyVMOzWK)
+![Screenshot](https://drive.google.com/uc?id=1t2AZtm55fmpH9XBkC4Z64bhPbyVMOzWK)
 
 
 ## 
