@@ -8,8 +8,8 @@ In this assignment you will implement a simple rasterizer, including features li
 ## Logistics
 
 ### Deadline
-* First 3 parts are due on Tuesday, September 18th at 11:59pm.
-* Entire Assignment 1 is due on Tuesday, September 23rd at 11:59pm. 
+* First 3 parts are due on Tuesday, September 18th at 11:55pm.
+* Entire Assignment 1 is due on Tuesday, September 23rd at 11:55pm. 
 * Assignments which are turned in after 11:59pm are a full day late -- there are no late minutes or late hours.
 
 
@@ -74,22 +74,20 @@ If you load a directory with up to 9 files, you can switch between them using th
 
 ## Project structure
 
-The project has 6 parts, divided into 3 sections, worth a total of 100 possible points. Some require only a few lines of code, while others are more substantial.
-
 **Section I: Rasterization (suggested completion checkpoint: Sunday 1/29)**
 
-* Part 1: Rasterizing single-color triangles (15 pts)
-* Part 2: Antialiasing triangles (15 pts)
-* Part 3: Transforms (10 pts)
+* Part 1: Rasterizing single-color triangles
+* Part 2: Antialiasing triangles
+* Part 3: Transforms
 
 **Section II: Sampling**
 
-* Part 4: Barycentric coordinates (20 pts)
-* Part 5: "Pixel sampling" for texture mapping (20 pts)
+* Part 4: Barycentric coordinates
+* Part 5: "Pixel sampling" for texture mapping
 
 **Section III: Scan Line**
 
-* Part 6: Scan Line (30 pts)
+* Part 6: Scan Line
 
 There is a fair amount of code in the CGL library, which we will be using for future assignments. The relevant header files for this assignment are *vector2D.h*, *matrix3x3.h*, *color.h*, and *renderer.h*.
 
@@ -106,7 +104,7 @@ In addition to modifying these, you will need to reference some of the other sou
 
 ## Section I: Rasterization
 
-### Part 1: Rasterizing single-color triangles (15 pts)
+### Part 1: Rasterizing single-color triangles
 
 Triangle rasterization is a core function in the graphics pipeline to convert input triangles into framebuffer pixel values. In Part 1, you will implement triangle rasterization using the methods discussed in lecture 2 to fill in the `DrawRend::rasterize_triangle(...)` function in *drawrend.cpp*.
 
@@ -150,7 +148,7 @@ If you encounter some partially filled stars or a disconnected circle, then ther
 ![Screenshot](https://drive.google.com/uc?id=1MTcYoIWfHyzp20TNyMJqiGOyg1Bvm23r)
 
 
-### Part 2: Antialiasing triangles (15 pts)
+### Part 2: Antialiasing triangles
 
 Use supersampling to antialias your triangles. The `sample_rate` parameter in `DrawRend` (adjusted using the `-` and `=` keys) tells you how many samples to use per pixel.
 
@@ -181,7 +179,7 @@ Adjust your samples per pixel by using the `-` and `=` keys.
 ![Screenshot](https://drive.google.com/uc?id=1duIL_UUHNfyIVDVgmb-k64brvuPbEI-T)
 
 
-### Part 3: Transforms (10 pts)
+### Part 3: Transforms
 
 Implement the three transforms in the *transforms.cpp* file according to the [SVG spec](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform). The matrices are 3x3 because they operate in homogeneous coordinates -- you can see how they will be used on instances of `Vector2D` by looking at the way the `*` operator is overloaded in the same file.
 
@@ -200,7 +198,7 @@ For convenience, here is a list of functions you will need to modify:
 
 ## Section II: Sampling
 
-### Part 4: Barycentric coordinates (20 pts)
+### Part 4: Barycentric coordinates
 
 Familiarize yourself with the `ColorTri` struct in *svg.h*. Modify your implementation of `DrawRend::rasterize_triangle(...)` so that if a non-NULL `Triangle *tri` pointer is passed in, it computes barycentric coordinates of each sample hit and passes them to `tri->color(...)` to request the appropriate color.
 
@@ -215,7 +213,7 @@ For convenience, here is a list of functions you will need to modify:
 
 ![Screenshot](https://drive.google.com/uc?id=1jgVwqtU4ADnPwNMX2gLz_UlLQ_JlPuh3)
 
-### Part 5: "Pixel sampling" for texture mapping (20 pts)
+### Part 5: "Pixel sampling" for texture mapping
 
 Familiarize yourself with the `TexTri` struct in *svg.h*. This is the primitive that implements texture mapping. For each vertex, you are given corresponding *uv* coordinates that index into the `Texture` pointed to by `*tex`.
 
@@ -236,7 +234,7 @@ Execute following command in build directory. Cycle through different texmap fil
     ./draw ../svg/texmap/
 
 ## Section III: Scan Line
-### Part 6: Implement Scan Line (30 pts)
+### Part 6: Implement Scan Line
 
 Scan Line is an effecient algorithm to determine if a point lies within a polygon. Hence, in comparison to our implementation in part 1, it should be less sluggish. 
 
