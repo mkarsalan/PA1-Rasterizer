@@ -212,7 +212,8 @@ For convenience, here is a list of functions you will need to modify:
 
 After implementing this part, instead of a black circle, you will be able to view the colour wheel:
 
-![Screenshot](https://drive.google.com/open?id=1lzmIW4E1P8xO8-NJGkkr4CQbSd9uQXv5)
+![Screenshot](https://drive.google.com/uc?id=1lzmIW4E1P8xO8-NJGkkr4CQbSd9uQXv5)
+
 
 ### Part 5: "Pixel sampling" for texture mapping
 
@@ -234,9 +235,9 @@ Execute following command in build directory. Cycle through different texmap fil
 
     ./draw ../svg/texmap/
 
-![Screenshot](https://drive.google.com/open?id=12kcGe8pw_LINnX2ScqtPOZbV5KAs4FX7)
-![Screenshot](https://drive.google.com/open?id=12PMwZmRQpIFlGsrLjvPKxyHcYpYIz7Dn)
-![Screenshot](https://drive.google.com/open?id=1tjdm3Ci2xH0ce9xj99U7SjqDi2H2_82_)
+![Screenshot](https://drive.google.com/uc?id=12kcGe8pw_LINnX2ScqtPOZbV5KAs4FX7)
+![Screenshot](https://drive.google.com/uc?id=12PMwZmRQpIFlGsrLjvPKxyHcYpYIz7Dn)
+![Screenshot](https://drive.google.com/uc?id=1tjdm3Ci2xH0ce9xj99U7SjqDi2H2_82_)
 
 
 ## Section III: Scan Line
