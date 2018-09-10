@@ -235,10 +235,8 @@ Execute following command in build directory. Cycle through different texmap fil
 
     ./draw ../svg/texmap/
 
-
-![Screenshot](https://drive.google.com/uc?id=1X_anjcXBed-C8MjKzr-WzNE_j2fdAsS6)
-![Screenshot](https://drive.google.com/uc?id=1VfpKqxTUt-3Apd3rLhMUzuH0E3JCtaNy)
-![Screenshot](https://drive.google.com/uc?id=1_DEoG9c6yDhdoKDFFefAXQ1N30nnwZ08)
+![Screenshot](https://drive.google.com/uc?id=1QtjtpaKFXWX9RqeHg0Ln8gecUH883sho)
+![Screenshot](https://drive.google.com/uc?id=1dCWsU40Ecl2mrW0ztwiOEKyEoWfXiOCs)
 
 
 ## Section III: Scan Line
