@@ -183,10 +183,6 @@ Adjust your samples per pixel by using the `-` and `=` keys.
 
 Implement the three transforms in the *transforms.cpp* file according to the [SVG spec](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform). The matrices are 3x3 because they operate in homogeneous coordinates -- you can see how they will be used on instances of `Vector2D` by looking at the way the `*` operator is overloaded in the same file.
 
-Once you've implemented these transforms, *svg/transforms/robot.svg* should render correctly, as follows:
-
-![Screenshot](https://drive.google.com/uc?id=1B3i2Aejh-VsxrQCgElOGrk-QF_RFZXrt)
-
 For convenience, here is a list of functions you will need to modify:
 
 1. `translate`
@@ -195,6 +191,9 @@ For convenience, here is a list of functions you will need to modify:
 
 *located in src/transforms.cpp*
 
+Once you've implemented these transforms, *svg/transforms/robot.svg* should render correctly, as follows:
+
+![Screenshot](https://drive.google.com/uc?id=1B3i2Aejh-VsxrQCgElOGrk-QF_RFZXrt)
 
 ## Section II: Sampling
 
@@ -211,7 +210,9 @@ For convenience, here is a list of functions you will need to modify:
 1. `DrawRend::rasterize_triangle`
 2. `ColorTri::color`
 
-![Screenshot](https://drive.google.com/uc?id=1jgVwqtU4ADnPwNMX2gLz_UlLQ_JlPuh3)
+After implementing this part, instead of a black circle, you will be able to view the colour wheel:
+
+![Screenshot](https://drive.google.com/open?id=1lzmIW4E1P8xO8-NJGkkr4CQbSd9uQXv5)
 
 ### Part 5: "Pixel sampling" for texture mapping
 
@@ -233,6 +234,11 @@ Execute following command in build directory. Cycle through different texmap fil
 
     ./draw ../svg/texmap/
 
+![Screenshot](https://drive.google.com/open?id=12kcGe8pw_LINnX2ScqtPOZbV5KAs4FX7)
+![Screenshot](https://drive.google.com/open?id=12PMwZmRQpIFlGsrLjvPKxyHcYpYIz7Dn)
+![Screenshot](https://drive.google.com/open?id=1tjdm3Ci2xH0ce9xj99U7SjqDi2H2_82_)
+
+
 ## Section III: Scan Line
 ### Part 6: Implement Scan Line
 
@@ -245,6 +251,9 @@ For convenience, here is the function you will need to modify:
     DrawRend::rasterize_scanLine
 
 Use `L` to toggle scanline. Note your time difference.
+
+![Screenshot](https://drive.google.com/open?id=1t2AZtm55fmpH9XBkC4Z64bhPbyVMOzWK)
+
 
 ## 
 <p align="center">
