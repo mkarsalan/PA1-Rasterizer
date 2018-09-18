@@ -9,7 +9,7 @@ In this assignment you will implement a simple rasterizer, including features li
 
 ### Deadline
 * First 3 parts are due on Tuesday, September 18th at 11:55pm.
-* Entire Assignment 1 is due on Tuesday, September 23rd at 11:55pm. 
+* Entire Assignment 1 is due on Tuesday, September 25th at 11:55pm. 
 * Assignments which are turned in after 11:55pm are a full day late -- there are no late minutes or late hours.
 
 
@@ -74,7 +74,7 @@ If you load a directory with up to 9 files, you can switch between them using th
 
 ## Project structure
 
-**Section I: Rasterization (suggested completion checkpoint: Sunday 1/29)**
+**Section I: Rasterization**
 
 * Part 1: Rasterizing single-color triangles
 * Part 2: Antialiasing triangles
