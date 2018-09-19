@@ -225,11 +225,11 @@ The GUI toggles `DrawRend`'s `PixelSampleMethod` variable `psm` using the `'P'` 
 
 For convenience, here is a list of functions you will need to modify:
 
-1. `DrawRend::rasterize_triangle`
-2. `TexTri::color`
-3. `Texture::sample`
-4. `Texture::sample_nearest`
-5. `Texture::sample_bilinear`
+1. `DrawRend::rasterize_triangle` *located in src/drawrend.cpp*
+2. `TexTri::color` *located in src/svg.cpp*
+3. `Texture::sample` *located in src/texture.cpp*
+4. `Texture::sample_nearest` *located in src/texture.cpp*
+5. `Texture::sample_bilinear` *located in src/texture.cpp*
 
 Execute following command in build directory. Cycle through different texmap files by pressing 1-6.
 
@@ -248,7 +248,7 @@ The imput methods for `rasterize_scanLine` are the same as the simple `rasterize
 
 For convenience, here is the function you will need to modify:
 
-    DrawRend::rasterize_scanLine
+1. `DrawRend::rasterize_scanLine` *located in src/drawrend.cpp*
 
 Use `L` to toggle scanline. Note your time difference.
 
