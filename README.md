@@ -212,6 +212,8 @@ For convenience, here is a list of functions you will need to modify:
 
 After implementing this part, instead of a black circle, you will be able to view the colour wheel:
 
+    ./draw ../svg/basic/test7.svg
+
 ![Screenshot](https://drive.google.com/uc?id=1lzmIW4E1P8xO8-NJGkkr4CQbSd9uQXv5)
 
 
