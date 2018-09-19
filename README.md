@@ -248,7 +248,8 @@ The imput methods for `rasterize_scanLine` are the same as the simple `rasterize
 
 For convenience, here is the function you will need to modify:
 
-1. `DrawRend::rasterize_scanLine` *located in src/drawrend.cpp*
+    DrawRend::rasterize_scanLine
+*located in src/drawrend.cpp*
 
 Use `L` to toggle scanline. Note your time difference.
 
