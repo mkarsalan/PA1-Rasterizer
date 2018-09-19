@@ -207,8 +207,8 @@ You may use `Vector2D` and `vector3D` datastructures to make calculations easier
 
 For convenience, here is a list of functions you will need to modify:
 
-1. `DrawRend::rasterize_triangle`
-2. `ColorTri::color`
+1. `DrawRend::rasterize_triangle` *located in src/drawrend.cpp*
+2. `ColorTri::color` *located in src/svg.cpp*
 
 After implementing this part, instead of a black circle, you will be able to view the colour wheel:
 
